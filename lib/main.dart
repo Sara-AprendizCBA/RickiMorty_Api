@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-import 'package:flutter/material.dart';
+
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:rickandmortyapp/models/character_mode.dart';
@@ -56,6 +55,9 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
+
+}
+
 }
   // This widget is the root of your application.
   @override
@@ -170,3 +172,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
