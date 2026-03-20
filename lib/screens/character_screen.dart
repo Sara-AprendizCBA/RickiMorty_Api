@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rickandmortyapp/models/character_mode.dart';
-import 'package:rickandmortyapp/providers/api_provider.dart';
-import 'package:rickandmortyapp/providers/character_provider.dart';
+import 'package:rickimorty_api/models/character_mode.dart';
+import 'package:rickimorty_api/providers/api_provider.dart';
+import 'package:rickimorty_api/providers/character_provider.dart';
 
 class CharacterScreen extends StatelessWidget {
   final Character character;
@@ -117,3 +117,4 @@ class _EpisodeListState extends State<EpisodeList> {
     );
   }
 }
+

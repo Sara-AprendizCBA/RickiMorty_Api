@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rickandmortyapp/models/character_mode.dart';
-import 'package:rickandmortyapp/models/episode_model.dart';
-import 'package:rickandmortyapp/services/character_service.dart';
+import 'package:rickimorty_api/models/character_mode.dart';
+import 'package:rickimorty_api/models/episode_model.dart';
+import 'package:rickimorty_api/services/character_services.dart';
 
 class ApiProvider with ChangeNotifier {
   final CharacterService _service = CharacterService();
@@ -27,3 +27,4 @@ class ApiProvider with ChangeNotifier {
     return episodes;
   }
 }  
+

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:rickandmortyapp/providers/api_provider.dart';
-import 'package:rickandmortyapp/providers/character_provider.dart';
-import 'package:rickandmortyapp/services/search_delegate.dart';
+import 'package:rickimorty_api/providers/api_provider.dart';
+import 'package:rickimorty_api/providers/character_provider.dart';
+import 'package:rickimorty_api/services/search_delegate.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -150,3 +150,4 @@ class CharacterList extends StatelessWidget {
     );
   }
 }
+

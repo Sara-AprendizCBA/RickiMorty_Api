@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:rickandmortyapp/models/character_mode.dart';
+import 'package:rickimorty_api/models/character_mode.dart';
 
 class CharacterProvider with ChangeNotifier {
   List<Character> _favorites = [];
@@ -39,3 +39,4 @@ class CharacterProvider with ChangeNotifier {
     notifyListeners();
   }
 }  
+

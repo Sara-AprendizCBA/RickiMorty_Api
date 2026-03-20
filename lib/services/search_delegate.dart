@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:rickandmortyapp/models/character_mode.dart';
-import 'package:rickandmortyapp/providers/api_provider.dart';
+import 'package:rickimorty_api/models/character_mode.dart';
+import 'package:rickimorty_api/providers/api_provider.dart';
 
 class SearchCharacter extends SearchDelegate {
   @override

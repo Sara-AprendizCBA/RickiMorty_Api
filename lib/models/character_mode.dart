@@ -146,3 +146,4 @@ class Location {
         "url": url,
       };
 }
+

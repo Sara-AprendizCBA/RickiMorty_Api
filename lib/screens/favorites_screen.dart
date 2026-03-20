@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:rickandmortyapp/providers/character_provider.dart';
+import 'package:rickimorty_api/providers/character_provider.dart';
 
 class FavoritesScreen extends StatelessWidget {
   const FavoritesScreen({super.key});
@@ -60,3 +60,4 @@ class FavoritesScreen extends StatelessWidget {
     );
   }
 }
+

@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
-import 'package:rickandmortyapp/models/character_mode.dart';
-import 'package:rickandmortyapp/models/episode_model.dart';
+import 'package:rickimorty_api/models/character_mode.dart';
+import 'package:rickimorty_api/models/episode_model.dart';
 
 class CharacterService {
   final String _baseUrl = 'rickandmortyapi.com';
